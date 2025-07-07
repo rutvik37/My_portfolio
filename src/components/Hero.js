@@ -3,12 +3,15 @@ const Hero = () => (
     <h1 className="text-5xl font-bold mb-4">Yogesh Kumavat</h1>
     <p className="text-xl mb-6">Full Stack Developer (MERN + Laravel)</p>
     <a
-      href="/resume.pdf"
+      href={`${process.env.PUBLIC_URL}/resume.pdf`}
       target="_blank"
+      rel="noopener noreferrer"
       className="bg-teal-500 hover:bg-teal-600 px-6 py-3 rounded text-white transition"
     >
       View Resume
     </a>
+
+
   </section>
 );
 

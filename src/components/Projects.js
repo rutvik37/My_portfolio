@@ -30,14 +30,14 @@ const Projects = () => (
         <div key={idx} className="bg-white p-6 rounded shadow">
           <h3 className="text-xl font-bold mb-2">{project.title}</h3>
           <p className="mb-4">{project.description}</p>
-          <a
+          {/* <a
             href={project.link}
             target="_blank"
             className="text-teal-600 hover:underline"
             rel="noreferrer"
           >
-            View Project →
-          </a>
+            View details →
+          </a> */}
         </div>
       ))}
     </div>
