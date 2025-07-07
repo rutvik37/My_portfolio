@@ -1,10 +1,16 @@
+import React from "react";
+
 const About = () => (
-  <section className="py-20 px-4 max-w-4xl mx-auto">
-    <h2 className="text-3xl font-semibold mb-4 text-center">About Me</h2>
-    <p className="text-lg text-center">
-      I’m a Full Stack Developer with a passion for building scalable and efficient web applications.
-      With strong experience in MERN and Laravel, I create full-featured solutions that solve real-world problems.
-    </p>
+  <section className="py-20 px-4 bg-gray-50">
+    <div className="max-w-3xl mx-auto text-center">
+      <h2 className="text-3xl font-bold mb-6 text-teal-700">About Me</h2>
+      <p className="text-lg leading-relaxed text-gray-700">
+        I'm a Full Stack Developer with hands-on experience in both the MERN stack and Laravel.
+         I enjoy building efficient, scalable applications and turning ideas into real-world solutions.
+          I’m passionate about continuous learning, and collaborating on meaningful projects.
+      </p>
+    </div>
   </section>
 );
+
 export default About;

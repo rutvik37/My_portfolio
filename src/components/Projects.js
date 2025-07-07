@@ -1,46 +1,49 @@
+import React from "react";
+import { Typewriter } from "react-simple-typewriter";
+
 const projects = [
   {
-    title: "Live E-commerce App (Flowers Domain)",
-    stack: "Node.js (API) + Laravel (Admin Panel) + React Native (Frontend)",
+    title: "Live E-commerce App (Flowers)",
+    stack: "Node.js + Laravel + React Native",
     description:
-      "Contributed to a production-level flower e-commerce platform. Developed backend APIs in Node.js and built a Laravel-based admin panel for product, order, and user management. Collaborated with a React Native developer for frontend integration.",
-    link: "#"
+      "Built APIs using Node.js and admin panel in Laravel. App interface handled by React Native developer.",
   },
   {
-    title: "Master’s Project – E-commerce Admin + App",
-    stack: "Laravel (Admin Panel) + Flutter (Mobile App)",
+    title: "MSc IT Project – E-commerce Admin + App",
+    stack: "Laravel + Flutter",
     description:
-      "Built a fully functional e-commerce admin panel in Laravel to manage categories, products, orders, and users. Developed a Flutter-based customer app with cart, authentication, and order tracking.",
-    link: "#"
+      "Created Laravel admin to manage orders/products, and Flutter app for user side.",
   },
   {
-    title: "Bachelor’s Project – IoT-Based Radar System",
-    stack: "IoT Hardware + ThinkSpeak Cloud + Embedded Systems",
+    title: "BSc IT Project – IoT Radar System",
+    stack: "IoT + ThingSpeak",
     description:
-      "Developed an IoT-enabled radar system to detect and transmit object location data. Used ThinkSpeak cloud for real-time data collection and visualization. Designed and integrated embedded systems for sensor communication.",
-    link: "#"
-  }
+      "Designed a radar-based obstacle detection system with cloud data visualization.",
+  },
 ];
 
 const Projects = () => (
-  <section className="py-20 px-4 bg-gray-50 max-w-6xl mx-auto">
-    <h2 className="text-3xl font-semibold text-center mb-10">Projects</h2>
-    <div className="grid md:grid-cols-3 gap-6">
-      {projects.map((project, idx) => (
-        <div key={idx} className="bg-white p-6 rounded shadow">
-          <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-          <p className="mb-4">{project.description}</p>
-          {/* <a
-            href={project.link}
-            target="_blank"
-            className="text-teal-600 hover:underline"
-            rel="noreferrer"
+  <section id="projects" className="py-20 px-4 bg-gray-50">
+    <div className="max-w-5xl mx-auto text-center">
+      <h2 className="text-3xl font-bold mb-10 text-gray-800">Projects</h2>
+      <div className="grid md:grid-cols-2 gap-8">
+        {projects.map((project, index) => (
+          <div
+            key={index}
+            className="bg-white rounded-lg shadow-md p-6 text-left border hover:shadow-lg transition duration-300"
           >
-            View details →
-          </a> */}
-        </div>
-      ))}
+            <h3 className="text-xl font-semibold mb-2 text-teal-700">
+              {project.title}
+            </h3>
+            <p className="text-sm font-medium text-gray-500 mb-2">
+              {project.stack}
+            </p>
+            <p className="text-gray-700 text-sm">{project.description}</p>
+          </div>
+        ))}
+      </div>
     </div>
   </section>
 );
+
 export default Projects;
