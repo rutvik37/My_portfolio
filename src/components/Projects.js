@@ -3,22 +3,28 @@ import { Typewriter } from "react-simple-typewriter";
 
 const projects = [
   {
-    title: "Live E-commerce App (Flowers)",
-    stack: "Node.js + Laravel + React Native",
+    title: "Form Submission Automation",
+    stack: "Selenium + TestNG + Java",
     description:
-      "Built APIs using Node.js and admin panel in Laravel. App interface handled by React Native developer.",
+      "Automated a complete form submission and admin panel verification flow, including pagination handling and dynamic data validation.",
   },
   {
-    title: "MSc IT Project – E-commerce Admin + App",
-    stack: "Laravel + Flutter",
+    title: "E-commerce Testing Project",
+    stack: "Playwright (Java) + Manual Testing",
     description:
-      "Created Laravel admin to manage orders/products, and Flutter app for user side.",
+      "Performed manual and automated testing of login, cart, and checkout functionalities. Found and reported over 15 bugs using structured bug reports.",
   },
   {
-    title: "BSc IT Project – IoT Radar System",
-    stack: "IoT + ThingSpeak",
+    title: "API Testing with Postman",
+    stack: "Postman + REST APIs",
     description:
-      "Designed a radar-based obstacle detection system with cloud data visualization.",
+      "Created test collections for GET, POST, PUT, DELETE APIs. Validated response codes, payloads, and performance for a sample web service.",
+  },
+  {
+    title: "UI Validation & Regression Testing",
+    stack: "Manual Testing + DevTools + Bug Reporting",
+    description:
+      "Tested responsive UI across browsers using manual test cases. Reported bugs with screenshots and clear reproduction steps using a test management tool.",
   },
 ];
 

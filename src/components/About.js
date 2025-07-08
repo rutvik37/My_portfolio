@@ -5,9 +5,10 @@ const About = () => (
     <div className="max-w-3xl mx-auto text-center">
       <h2 className="text-3xl font-bold mb-6 text-teal-700">About Me</h2>
       <p className="text-lg leading-relaxed text-gray-700">
-        I'm a Full Stack Developer with hands-on experience in both the MERN stack and Laravel.
-         I enjoy building efficient, scalable applications and turning ideas into real-world solutions.
-          I’m passionate about continuous learning, and collaborating on meaningful projects.
+       I’m a Software Tester with a strong foundation in manual testing and a growing focus on automation.
+I enjoy finding edge cases, improving software quality, and building reliable automated test suites using tools like Selenium, Playwright, TestNG, and Postman.
+Passionate about learning modern testing tools and best practices, I’m always exploring better ways to ensure bug-free, user-friendly applications.
+Currently transitioning into automation testing, I enjoy contributing to real-world projects and continuously upskilling in test frameworks and CI/CD workflows.
       </p>
     </div>
   </section>

@@ -1,6 +1,9 @@
 const skills = [
-  "React", "Node.js", "Express", "MongoDB",
-  "Laravel", "MySQL", "REST APIs", "Git", "Tailwind", "Html","Css","Javascript"
+  "Manual Testing", "Test Case Design", "Bug Reporting",
+  "Selenium (Java)", "Playwright (Java)", "TestNG", "JUnit",
+  "Postman", "REST API Testing", 
+  "Git", "GitHub", "Jenkins (CI/CD)",
+  "Responsive Testing", "Cross-Browser Testing"
 ];
 
 const Skills = () => (
@@ -15,4 +18,5 @@ const Skills = () => (
     </div>
   </section>
 );
+
 export default Skills;
