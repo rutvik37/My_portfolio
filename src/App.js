@@ -12,9 +12,13 @@ import ProjectDetail2 from "./components/Project/project2";
 import ProjectDetail3 from "./components/Project/project3";
 import ProjectDetail4 from "./components/Project/project4";
 
+// ✅ Scroll to top on route change
+import ScrollToTop from "./components/scrolltotop";
+
 function App() {
   return (
     <Router>
+      <ScrollToTop /> {/* auto-scroll to top on route change */}
       <Routes>
         <Route
           path="/My_portfolio"
