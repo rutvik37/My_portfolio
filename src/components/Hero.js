@@ -12,21 +12,18 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          👋 Hi, I'm{" "}
+          {/* 👋 Hi, I'm{" "} */}
+          👨‍💻 Hey there! I'm{" "}
       
 <motion.span
   className="text-yellow-300 inline-block"
   initial={{ width: 0, opacity: 0 }}
   animate={{ width: "auto", opacity: 1 }}
   transition={{ delay: 0.5, duration: 1.5, ease: "easeOut" }}
-  style={{ overflow: "hidden", whiteSpace: "nowrap", display: "inline-block" }}
+  style={{ whiteSpace: "nowrap", display: "inline-block" }}
 >
   Rutvik Jasani
 </motion.span>
-
-
-
-
         </motion.h1>
 
         <motion.p
@@ -35,7 +32,9 @@ const Hero = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.6 }}
         >
-          A <span className="font-semibold text-white">Manual + Automation Software Tester</span> passionate about delivering bug-free, high-quality software experiences.
+     <span className="font-semibold text-white">A passionate QA Engineer ensuring every user experiences smooth, error-free software.
+
+</span> 
         </motion.p>
 
         <motion.p

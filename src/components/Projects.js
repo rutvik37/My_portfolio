@@ -13,7 +13,7 @@ import { SiPostman } from "react-icons/si";
 
 const projects = [
  {
-  id: 1,
+  id: "justnews",
   title: "JustNews – News Platform QA (Mobile + Panels)",
   icon: <span className="text-xl mr-2">🗞️</span>,
   stack: "Manual Testing + 4 Web Panels + Android/iOS",
@@ -22,7 +22,7 @@ const projects = [
 },
 
 {
-  id: 2,
+  id: "property-possible",
   title: "Property Possible – Real Estate Testing",
   icon: <FaMobileAlt className="text-green-600 mr-2" />,
   stack: "Android/iOS Manual QA + Admin Panel",
@@ -31,7 +31,7 @@ const projects = [
 },
 
   {
-    id: 3,
+    id: "hbl",
     title: "HBL – Home Based Learning QA",
     icon: <FaChalkboardTeacher className="text-amber-600 mr-2" />,
     stack: "Manual Testing + Multi-Platform QA",
@@ -39,7 +39,7 @@ const projects = [
       "Executed multi-phase testing across Tutor & Student/Parent native apps (Android/iOS), website, and admin panel. Focused on Agora-based video/audio call flows, login roles, and full sync validation across platforms.",
   },
   {
-    id: 4,
+    id: "posiv",
     title: "Posiv – Mobile + Web QA (Manual & Automation)",
     icon: <span className="text-xl mr-2">📱</span>,
     stack: "Android/iOS Manual Testing + Playwright Java Automation",

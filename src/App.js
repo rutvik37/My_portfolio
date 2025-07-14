@@ -36,10 +36,10 @@ function App() {
             </motion.div>
           }
         />
-        <Route path="/project/1" element={<ProjectDetail1 />} />
-        <Route path="/project/2" element={<ProjectDetail2 />} />
-        <Route path="/project/3" element={<ProjectDetail3 />} />
-        <Route path="/project/4" element={<ProjectDetail4 />} />
+        <Route path="/project/justnews" element={<ProjectDetail1 />} />
+        <Route path="/project/property-possible" element={<ProjectDetail2 />} />
+        <Route path="/project/hbl" element={<ProjectDetail3 />} />
+        <Route path="/project/posiv" element={<ProjectDetail4 />} />
       </Routes>
     </Router>
   );
